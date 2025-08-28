@@ -1,6 +1,6 @@
-#  IBM Data Science Capstone – SpaceX Falcon 9 Landing Prediction
+#   SpaceX Falcon 9 Landing Prediction
 
-This is the **final project** of the IBM Data Science Professional Certificate. The goal is to analyze SpaceX Falcon 9 launch data and **predict whether the first stage booster will land successfully**. The project demonstrates end-to-end data science skills including data collection, cleaning, visualization, and machine learning.
+The goal is to analyze SpaceX Falcon 9 launch data and **predict whether the first stage booster will land successfully**. The project demonstrates end-to-end data science skills including data collection, cleaning, visualization, and machine learning.
 
 ---
 
@@ -93,8 +93,5 @@ SpaceX’s reusable boosters significantly reduce launch costs. This project use
 
 * [SpaceX API](https://api.spacexdata.com/)
 * [Wikipedia: Falcon 9](https://en.wikipedia.org/wiki/Falcon_9)
-* IBM Data Science Professional Certificate, Capstone Project
 
 ---
-
-If you want, I can **also make a visually enhanced version** with badges, GIFs/screenshots, and a “skills learned” section to make it look even more impressive to recruiters. Do you want me to do that next?
