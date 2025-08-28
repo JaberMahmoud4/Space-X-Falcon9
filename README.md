@@ -1,92 +1,100 @@
-IBM Data Science Capstone – SpaceX Falcon 9 Landing Prediction
+#  IBM Data Science Capstone – SpaceX Falcon 9 Landing Prediction
 
-This is the final project of the IBM Data Science Professional Certificate. The goal is to analyze SpaceX Falcon 9 launch data and predict whether the first stage booster will land successfully. The project demonstrates end-to-end data science skills including data collection, cleaning, visualization, and machine learning.
+This is the **final project** of the IBM Data Science Professional Certificate. The goal is to analyze SpaceX Falcon 9 launch data and **predict whether the first stage booster will land successfully**. The project demonstrates end-to-end data science skills including data collection, cleaning, visualization, and machine learning.
 
-Project Overview
+---
+
+##  Project Overview
 
 SpaceX’s reusable boosters significantly reduce launch costs. This project uses historical launch data to:
 
-Explore and visualize trends in successful and failed landings.
+* Explore and visualize trends in successful and failed landings.
+* Build predictive models to forecast landing outcomes.
+* Present interactive dashboards for data exploration.
 
-Build predictive models to forecast landing outcomes.
+---
 
-Present interactive dashboards for data exploration.
+##  Tools & Technologies
 
-Tools & Technologies
+* **Languages**: Python
+* **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Plotly, Folium, Scikit-learn
+* **Data Sources**: SpaceX API, Wikipedia
+* **SQL**: For querying launch data
+* **Dashboards**: Plotly Dash for interactive visualizations
 
-Languages: Python
+---
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Plotly, Folium, Scikit-learn
+##  Project Steps
 
-Data Sources: SpaceX API, Wikipedia
+1. **Data Collection & Cleaning**
 
-SQL: For querying launch data
+   * Gathered data via SpaceX API and Wikipedia scraping.
+   * Handled missing values, duplicates, and encoded categorical features.
 
-Dashboards: Plotly Dash for interactive visualizations
+2. **Exploratory Data Analysis (EDA)**
 
-Project Steps
+   * Analyzed payloads, launch sites, orbits, and booster versions.
+   * Visualized data trends with static (Matplotlib/Seaborn) and interactive plots (Plotly/Folium).
 
-Data Collection & Cleaning
+3. **Predictive Modeling**
 
-Gathered data via SpaceX API and Wikipedia scraping.
+   * Built classifiers: Logistic Regression, Decision Tree, KNN, SVM.
+   * Hyperparameter tuning and cross-validation for model optimization.
+   * Evaluated models using accuracy scores and confusion matrices.
 
-Handled missing values, duplicates, and encoded categorical features.
+4. **Interactive Dashboard**
 
-Exploratory Data Analysis (EDA)
+   * Created a Plotly Dash dashboard to explore launches, payloads, and landing outcomes.
 
-Analyzed payloads, launch sites, orbits, and booster versions.
+---
 
-Visualized data trends with static (Matplotlib/Seaborn) and interactive plots (Plotly/Folium).
+##  Key Insights
 
-Predictive Modeling
+* Launch site and booster version have a significant impact on landing success.
+* Payload mass influences outcomes but is less critical than technical booster details.
+* Machine learning models can predict landings with **\~95% accuracy**.
 
-Built classifiers: Logistic Regression, Decision Tree, KNN, SVM.
+---
 
-Hyperparameter tuning and cross-validation for model optimization.
+##  Repository Structure
 
-Evaluated models using accuracy scores and confusion matrices.
-
-Interactive Dashboard
-
-Created a Plotly Dash dashboard to explore launches, payloads, and landing outcomes.
-
-Key Insights
-
-Launch site and booster version have a significant impact on landing success.
-
-Payload mass influences outcomes but is less critical than technical booster details.
-
-Machine learning models can predict landings with ~95% accuracy.
-
-Repository Structure
+```
 ├── data/                  # Raw and processed datasets
 ├── notebooks/             # Jupyter notebooks for EDA and modeling
 ├── dashboard/             # Plotly Dash dashboard files
 ├── README.md
 └── requirements.txt       # Python dependencies
+```
 
-How to Run
+---
 
-Clone the repository:
+##  How to Run
 
-git clone https://github.com/yourusername/spacex-capstone.git
+1. Clone the repository:
 
+   ```bash
+   git clone https://github.com/yourusername/spacex-capstone.git
+   ```
+2. Install dependencies:
 
-Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run Jupyter notebooks for EDA and modeling.
+4. Launch the dashboard:
 
-pip install -r requirements.txt
+   ```bash
+   python dashboard/app.py
+   ```
 
+---
 
-Run Jupyter notebooks for EDA and modeling.
+##  References
 
-Launch the dashboard:
+* [SpaceX API](https://api.spacexdata.com/)
+* [Wikipedia: Falcon 9](https://en.wikipedia.org/wiki/Falcon_9)
+* IBM Data Science Professional Certificate, Capstone Project
 
-python dashboard/app.py
+---
 
-References
-
-SpaceX API
-
-Wikipedia: Falcon 9
-
-IBM Data Science Professional Certificate, Capstone Project
+If you want, I can **also make a visually enhanced version** with badges, GIFs/screenshots, and a “skills learned” section to make it look even more impressive to recruiters. Do you want me to do that next?
